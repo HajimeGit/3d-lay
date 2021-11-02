@@ -76,6 +76,7 @@ form textarea{
     resize : none;
     padding: 13px 16px 16px 13px;
     overflow : auto;
+    border: 1px solid #c3c3c3;
 }
 .contact-form button {
     width: 100%;
