@@ -1,0 +1,29 @@
+.image-slider{
+    width: 100%;
+    height: 400px;
+    background-color: #f8f8f8;
+    display: flex;
+    overflow: hidden;
+}
+.image-slider_swiper{
+    max-width: 100%;
+    height: 100%;
+}
+.image-slider_image{
+    margin: -62px auto 0 auto;
+    width: 1248px;
+    height: 462px;
+    text-align: center ;
+}
+.image-slider_image img{
+    margin: -62px auto 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+.image-slider .swiper-button-prev::after{
+    content: url("../img/left-button.png");
+}
+.image-slider .swiper-button-next::after {
+    content: url("../img/right-button.png");
+}
